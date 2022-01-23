@@ -3,7 +3,6 @@ import { connect } from "react-redux";
 import { Avatar } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 function Header(props) {
-  console.log(props.state);
   return (
     <Container>
       <Left>
